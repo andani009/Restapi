@@ -25,4 +25,4 @@ Write-Warning "Original arguments (if any): $args"
 # ...
 
 
-New-WebApplication -Site "Default Web Site" -Name Rest-api1 -PhysicalPath C:\inetpub\wwwroot\Rest-api\src\build_output -Force
+New-WebApplication -Site "APIS" -Name Rest-api2 -PhysicalPath C:\inetpub\wwwroot\Rest-api\src\build_output -Force
