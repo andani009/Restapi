@@ -4,7 +4,7 @@ phases:
 build:
 commands:
 - dotnet test ./src/test/BeautifulRestApi.Test.csproj
-- dotnet publish -c release -o ./build_output ./src/BeautifulRestApi.csproj
+- dotnet publish -c release -o ./build_output ./src/*
 artifacts:
 files:
 - src/build_output/*
