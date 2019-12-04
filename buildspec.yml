@@ -3,7 +3,7 @@ version: 0.2
 phases:
 build:
 commands:
-- dotnet test ./src/BeautifulRestApi.csproj
+- dotnet test ./src/test/BeautifulRestApi.Test.csproj
 - dotnet publish -c release -o ./build_output ./src/BeautifulRestApi.csproj
 artifacts:
 files:
