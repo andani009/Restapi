@@ -4,10 +4,10 @@ phases:
 build:
 commands:
 - dotnet test ./src/test/BeautifulRestApi.Test.csproj
-- dotnet publish -c release -o ./build_output ./src/*
+- dotnet publish -c release -o ./build_output ./src/HelloWorldWebCore/HelloWorldWebCore.csproj
 artifacts:
 files:
-- src/build_output/*
+- src/HelloWorldWebCore/build_output/*
 - appspec.yml
 - install.ps1
 - index.html
