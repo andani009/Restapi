@@ -1,13 +1,13 @@
 version: 0.2
 
 phases:
-build:
-commands:
-- dotnet test ./src/test/BeautifulRestApi.Test.csproj
-- dotnet publish -c release -o ./build_output ./src/BeautifulRestApi.csproj
+  build:
+    commands:
+      - dotnet test ./src/test/BeautifulRestApi.Test.csproj
+      - dotnet publish -c release -o ./build_output ./src/BeautifulRestApi.csproj
 artifacts:
-files:
-- src/build_output/*
-- appspec.yml
-- install.ps1
-- index.html
+  files:
+    - src/build_output/*
+    - appspec.yml
+    - install.ps1
+    - index.html
