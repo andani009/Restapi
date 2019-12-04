@@ -7,7 +7,7 @@ commands:
 - dotnet publish -c release -o ./build_output ./src/BeautifulRestApi.csproj
 artifacts:
 files:
-- src/HelloWorldWebCore/build_output/*
+- src/build_output/*
 - appspec.yml
 - install.ps1
 - index.html
